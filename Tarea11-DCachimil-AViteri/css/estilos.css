@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.parrafo{
+    margin-bottom: 20px;
+}
+
+.container-img{
+    width: inherit;
+    margin: 0 auto;
+}
+
+
+.container-img img{
+    width: 25%;
+    object-fit: cover;
+}
+
+.container-btn{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 230px;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:nth-child(1){
+    background-color: rgb(20, 38, 229);
+}
+
+.btn:nth-child(2){
+    background-color: rgb(243, 109, 43);
+}
+
+.btn:nth-child(3){
+    background-color: rgb(157, 75, 251);
+}
+
+.btn:nth-child(4){
+    background-color: rgb(230, 46, 80);
+}
+
+.btn:nth-child(5){
+    background-color: rgb(87, 255, 160);
+}
+
+.btn:nth-child(6){
+    background-color: rgb(7, 72, 130);
+}
+
+.btn:nth-child(7){
+    background-color: rgb(236, 55, 175);
+}
+
+/************************************************************/
+.estilos-parrafos{
+    font-size: 20px;
+    color: tomato;
+    background-color: rgb(49, 56, 61);
+}
+
+.estilos-pares{
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(50, 82, 105);
+}
+
+.estilos-impares{
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(209, 88, 40);
+}
+
+.fondo{
+    background-color: #f88a3c;
+}
+
+.titulos{
+    color: #f83c74;
+    font-size: 30px;
+}
+
+.card {
+    max-width: 35rem;
+    background-image: linear-gradient(-225deg, #97d9e1 50%, #bff4f0 50%);
+}
+
+.login {
+    display: block;
+    margin: 0 auto; 
+}
+
+.invalid-feedback {
+    display: none;
+    color: red;
+    font-size: 0.875rem;
+}
+
+.invalid-feedback.active {
+    display: block;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0797f8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+button:hover {
+    background-color: #0665a4;
+}
+#resultado{
+    background-color: white;
+}
